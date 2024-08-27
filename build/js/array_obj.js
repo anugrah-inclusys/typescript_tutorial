@@ -9,8 +9,8 @@ C.push("A");
 //tuple
 let test;
 test = ["A", 2, true];
-let test2 = ["B", 3, false]; //test is tuple & test2 is array eventhough both have same values (hover on variable-intellisense)
-//test=test2               //test 2 maynot be 3 elements.
+let test2 = ["B", 3, false]; //test is a tuple, and test2 is an array, even though both have the same values (hover on the variable—IntelliSense).
+//test=test2               //test2 may not have 3 elements.
 test[1] = 4;
 let myObj;
 myObj = test;
@@ -19,7 +19,7 @@ const details = { name: "John", age: 30, city: "New York" };
 details.name = "new_ohn";
 //details.active=true;
 console.log(details);
-//type & interface same output,but moreover interface depicts class & have methods
+//type and interface produce the same output, but an interface more closely resembles a class and can have methods.
 let P1 = {
     name: "John",
     age: 30,
