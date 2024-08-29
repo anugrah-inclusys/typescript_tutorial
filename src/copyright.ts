@@ -15,7 +15,7 @@
 
 
 
-const year=document.getElementById('year') as HTMLSpanElement
+const year=document.getElementById('year') as HTMLSpanElement   //expilicitly type assertion'
 const thisYear=new Date().getFullYear().toString()
 year.setAttribute('datetime', thisYear)
 year.textContent=thisYear
